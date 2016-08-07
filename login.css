@@ -1,0 +1,32 @@
+.root{
+    -fx-background-color: linear-gradient(#ccf2ff,  #99e6ff);    
+}
+#title{
+    -fx-text-fill: linear-gradient(#F62817,#E42217);
+    -fx-font-size: 18px;
+}
+#password{
+    -fx-background-image: url("img/key.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-font-size: 14;
+    -fx-background-size: 25px 25px;
+}
+
+#username{
+    -fx-background-image: url("img/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-font-size: 14;
+    -fx-background-size: 25px 25px;
+}
+#signIn{    
+    -fx-border-radius:2px;
+    -fx-border-color:#ffffff;
+    -fx-text-fill:#ffffff;
+    -fx-background-color:linear-gradient(#F62817,#E42217);
+}
+
+#feedback{
+    -fx-text-fill:chartreuse;
+}
